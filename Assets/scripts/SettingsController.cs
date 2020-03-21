@@ -9,7 +9,7 @@ public class SettingsController : MonoBehaviour
     public static bool CanSpawnLives, CanSpawnBonus;
     void Start()
     {
-
+        CanSpawnLives = true;
     }
     void Update()
     {

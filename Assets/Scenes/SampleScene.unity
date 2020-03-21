@@ -163,15 +163,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106441554}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ea9306f96602e0149924b5e234824f14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SpawnLivesCheckbox: {fileID: 0}
   SpawnBonusCheckbox: {fileID: 0}
-  CanSpawnLives: 0
-  CanSpawnBonus: 0
 --- !u!1 &116330694
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,7 +2848,7 @@ PrefabInstance:
         type: 3}
       propertyPath: Items.Array.data[4]
       value: 
-      objectReference: {fileID: 971190051}
+      objectReference: {fileID: 351064992}
     - target: {fileID: 5828528142860578742, guid: 39d93ea55dde22b4aa68f690f03cd1a6,
         type: 3}
       propertyPath: Items.Array.data[5]
