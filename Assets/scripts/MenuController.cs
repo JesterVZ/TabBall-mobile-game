@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    private bool IsMute = false;
+
     public void StartGame()
     {
         SceneManager.LoadScene("SampleScene");
@@ -18,11 +18,5 @@ public class MenuController : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
-    public void SoundsController()
-    {
-        if (IsMute)
-        {
-            IsMute = !IsMute;
-        }
-    }
+
 }
