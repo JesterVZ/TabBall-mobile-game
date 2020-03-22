@@ -10,6 +10,8 @@ public class BallMovement : MonoBehaviour
     private bool IsGround = false;
     private int CountOfJumps;
 
+    AudioSource getItemSound;
+
     new Rigidbody2D rigidbody;
     new Animation animation;
     public GameObject GameOverPanel;
@@ -31,6 +33,7 @@ public class BallMovement : MonoBehaviour
         PausePanel.gameObject.SetActive(false);
         rigidbody = GetComponent<Rigidbody2D>();
         animation = GetComponent<Animation>();
+        getItemSound = GetComponent<AudioSource>();
     }
     void FixedUpdate()
     {
@@ -82,11 +85,13 @@ public class BallMovement : MonoBehaviour
                 ScoreSystem.scoreValue = ScoreSystem.scoreValue + Random.Range(2, 6);
                 animation.Play("PlayerGetItem");
                 Destroy(collision.gameObject);
+                getItemSound.Play(0);
                 break;
             case "life":
                 ScoreSystem.CountOfLifes++;
                 animation.Play("PlayerGetItem");
                 Destroy(collision.gameObject);
+                getItemSound.Play(0);
                 break;
         }
     }
