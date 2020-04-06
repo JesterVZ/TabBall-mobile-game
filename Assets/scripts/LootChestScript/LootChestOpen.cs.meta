@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1baec1fc6225b314eba4a65615e2b858
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - lootChestImage: {instanceID: 0}
+  - CanvasParent: {instanceID: 0}
+  - TargerForChest: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

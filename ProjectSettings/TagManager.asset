@@ -9,6 +9,10 @@ TagManager:
   - AddScore
   - bonus
   - life
+  - chest
+  - canvas
+  - target
+  - ballCoin
   layers:
   - Default
   - TransparentFX
